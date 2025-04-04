@@ -374,13 +374,13 @@
     message = `¡Increíble! (${percentage.toFixed(0)}%)<br>
     Tus hábitos nutricionales son excelentes. Estás tomando decisiones inteligentes para tu bienestar. ¡Sigue así y disfruta de una vida saludable!<br>
     <strong>Todo luce muy bien contigo, pero si hubiera dudas, ¡contáctanos!</strong> Da el siguiente paso y <a href="#" onclick="scheduleAppointment()">agenda una cita con el nutriólogo</a>.`;
-    showCalendar = false;
+    showCalendar = true;
 } else if (percentage >= 70) {
     emoji = "👍";
     message = `¡Buen trabajo! (${percentage.toFixed(0)}%)<br>
     Vas por un camino saludable, pero aún hay margen para mejorar. Pequeños cambios pueden marcar una gran diferencia. ¡Sigue adelante!<br>
     <strong>Si requieres apoyo nutricional o tienes dudas, ¡contáctanos!</strong> Da el siguiente paso y <a href="#" onclick="scheduleAppointment()">agenda una cita con el nutriólogo</a>.`;
-    showCalendar = false;
+    showCalendar = true;
 } else if (percentage >= 50) {
     emoji = "🤔";
     message = `Tu alimentación puede mejorar (${percentage.toFixed(0)}%)<br>
